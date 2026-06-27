@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Raw data
+data/
+*.csv
+
+# Generated outputs
+outputs/
+outputs_ops_only/
+outputs_ops_same_ui/
+
+# Models
+models/
+*.pkl
+*.joblib
+
+# Archives
+*.zip
+*.7z
+*.rar
+
+# OS
+.DS_Store
+Thumbs.db
